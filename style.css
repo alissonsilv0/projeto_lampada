@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    color: white;
+}
+
+main figure{
+    display: flex;
+    justify-content: center;
+    height: 40vh; 
+}
+
+main section{
+    /* border: solid yellow; */
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    justify-content:space-evenly;
+    align-items: center; 
+}
+
+main section button{
+    width: 10vw;
+    height: 5vh;
+    border-radius: 10vw;
+    font-family: "Poppins";
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}
+
+#desligada{
+    background-color: red;
+    color: white;
+}
